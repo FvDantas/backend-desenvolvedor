@@ -1,22 +1,27 @@
 ## MODELO ENTIDADE RELACIONAMENTO (MER)
-![MER]([link](https://github.com/FvDantas/backend-desenvolvedor/blob/d529ebee052e6cdbb66a9bebe8ecabbe05ecf26d/Banco_de_Dados/MER_FAP_TRABALHO1.png))
+![MER](https://github.com/FvDantas/backend-desenvolvedor/blob/d529ebee052e6cdbb66a9bebe8ecabbe05ecf26d/Banco_de_Dados/MER_FAP_TRABALHO1.png)
 
 ## MODELO LÓGICO
 Tabelas:
 
   - Livro
+    
 ID_ISBN (PK, VARCHAR), Título (VARCHAR), AnoPublicacao (INT), QuantidadeEstoque (INT).
 
   - Autor
+    
 AutorID (PK, INT), NomeAutor (VARCHAR), PaisOrigem (VARCHAR).
 
   - Usuário
+    
 UserID (PK, INT), NomeUsuario (VARCHAR), Endereco (VARCHAR), Email (VARCHAR).
 
   - Empréstimo
+
 EmpréstimoID (PK, INT), DataEmpréstimo (DATE), DataDevolucaoPrevista (DATE), UserID (FK).
 
   -Devolução
+
 DevolucaoID (PK, INT), DataDevolucao (DATE), EmpréstimoID (FK).
 
 ## MODELO FÍSICO
