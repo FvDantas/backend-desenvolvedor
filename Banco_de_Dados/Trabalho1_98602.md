@@ -1,5 +1,5 @@
 ## MODELO ENTIDADE RELACIONAMENTO (MER)
-![MER](link)
+![MER]([link](https://github.com/FvDantas/backend-desenvolvedor/blob/d529ebee052e6cdbb66a9bebe8ecabbe05ecf26d/Banco_de_Dados/MER_FAP_TRABALHO1.png))
 
 ## MODELO LÓGICO
 Tabelas:
