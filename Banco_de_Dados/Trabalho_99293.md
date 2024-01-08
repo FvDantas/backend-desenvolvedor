@@ -1,0 +1,2 @@
+## CRIANDO O BD E TABELAS
+CREATE DATABASE biblioteca;
